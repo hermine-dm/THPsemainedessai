@@ -3,7 +3,8 @@ body{
 	font-family: Arial, sans-serif;
 	color: #222;
 	font-size: 13px;
-	/*background-attachment: scroll;*/
+	
+	/*background-attachment: scroll; ne marche pas*/
 }
 
 section{
@@ -12,34 +13,40 @@ section{
 	max-width: 500px;
 }
 
-.recherche{
-	width: 100%;
-	box-sizing: border-box;
-}
-
 #search{
-	width: 440px;
+	width: 450px;
+	height: 50px;
 	margin-left: 20px;
 	border-radius: 88px 88px 88px 88px;
+	box-shadow: 0px 2px 2px 0px rgb(34, 34, 34);
 	border: 2px inset grey;
 }
 
 .logo{
 	margin: auto;
-	padding: 100px 100px 0px 50px;
-	height: 200px;
+	height: 250px;
 }
 
 #boutons{
 	display:flex;
 	justify-content: center;
+	height: 75px;
 }
 #bouton1{
-	margin: 10px;
+	margin-top: 30px;
+	margin-right: 10px;
 
 }
 #bouton2{
-	margin: 10px;
+	margin-top: 30px;
+	margin-left: 10px;
+
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
 
 }
 .Tete > a {
@@ -72,6 +79,7 @@ footer > div{
 
 .Pied2 > div > a {
 	margin: 30px;
+
 }
 
 #Fin{
@@ -90,6 +98,5 @@ footer > div{
 	justify-content: space-between; /* pour que les mots ne se touchent pas*/
 	/*margin: auto; /*pour qu'elles soient au milieu lorsque la fenetre n'est pas assez grande*/
 	width: 525px; /*cmt faire pour qu'elles touchent les côtés en revanche??*/
-	
 }
 
