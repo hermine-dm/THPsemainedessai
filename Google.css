@@ -1,0 +1,95 @@
+body{
+	margin: 0; /*pour la marge de la page*/
+	font-family: Arial, sans-serif;
+	color: #222;
+	font-size: 13px;
+	/*background-attachment: scroll;*/
+}
+
+section{
+	margin: auto;
+	margin-top: 100px;
+	max-width: 500px;
+}
+
+.recherche{
+	width: 100%;
+	box-sizing: border-box;
+}
+
+#search{
+	width: 440px;
+	margin-left: 20px;
+	border-radius: 88px 88px 88px 88px;
+	border: 2px inset grey;
+}
+
+.logo{
+	margin: auto;
+	padding: 100px 100px 0px 50px;
+	height: 200px;
+}
+
+#boutons{
+	display:flex;
+	justify-content: center;
+}
+#bouton1{
+	margin: 10px;
+
+}
+#bouton2{
+	margin: 10px;
+
+}
+.Tete > a {
+	margin: 30px;
+}
+.Tete {
+	display : flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	margin: 30px;
+}
+
+
+footer{
+	padding: 0px 10px 0px 10px;
+	background-color: rgb(225 225 225);
+	position: absolute;
+	bottom: 0;
+	width: 98.5%; /*beug trop long*/
+	border-top: 2px solid grey;
+}
+
+footer > div{
+	height: 40px;
+}
+
+.Pied1 > div > a {
+	margin: 30px;
+}
+
+.Pied2 > div > a {
+	margin: 30px;
+}
+
+#Fin{
+	display: flex;
+	justify-content: space-between; /*pour que les deux parties ne se touchent pas */
+	flex-wrap: wrap-reverse;/*elles passent l'une sous l'autre lorsque la fenetre se rapetisse*/
+}
+
+.France{
+	line-height: 40px;	
+}
+
+.Pied1, .Pied2{
+	line-height: 40px;
+	display: flex;
+	justify-content: space-between; /* pour que les mots ne se touchent pas*/
+	/*margin: auto; /*pour qu'elles soient au milieu lorsque la fenetre n'est pas assez grande*/
+	width: 525px; /*cmt faire pour qu'elles touchent les côtés en revanche??*/
+	
+}
+
